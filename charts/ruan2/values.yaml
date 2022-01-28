@@ -80,3 +80,10 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+grafana:
+  enabled: false
+  ingress:
+    enabled: true
+    hostname: grafana-ruan.sebrae.jac.bsb.br
+    path: /

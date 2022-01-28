@@ -25,3 +25,9 @@ appVersion: "1.16.0"
 
 icon: https://1000logos.net/wp-content/uploads/2020/08/Nginx-Logo.png
 # icon: file://img/Nginx-Logo.png
+
+dependencies:
+  - name: grafana
+    version: 7.6.1
+    repository: file://../common/grafana
+    condition: grafana.enabled
