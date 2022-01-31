@@ -41,15 +41,9 @@ service:
   port: 80
   targetPort: 80
 
-livenessProbe: 
-  httpGet:
-    path: /
-    port: http
+livenessProbe: {}
 
-readinessProbe: 
-  httpGet:
-    path: /
-    port: http
+readinessProbe: {}
 
 ingress:
   enabled: false
